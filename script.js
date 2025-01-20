@@ -1,56 +1,138 @@
 let lessons = {
   lesson1: [
     {
-      question: "ありがとう",
-      correctAnswer: "ধন্যবাদ",
-      options: ["ধন্যবাদ", "হ্যালো", "বিদায়", "সুপ্রভাত"],
+      question: "わたし",
+      correctAnswer: "আমি",
+      options: ["আমি", "আপনি", "তিনি", "ওরা"],
     },
     {
-      question: "こんにちは",
-      correctAnswer: "হ্যালো",
-      options: ["ধন্যবাদ", "হ্যালো", "বিদায়", "সুপ্রভাত"],
+      question: "あなた",
+      correctAnswer: "আপনি",
+      options: ["তুমি", "আপনি", "আমি", "তিনি"],
     },
     {
-      question: "さようなら",
-      correctAnswer: "বিদায়",
-      options: ["ধন্যবাদ", "হ্যালো", "বিদায়", "সুপ্রভাত"],
+      question: "あのひと",
+      correctAnswer: "সেই লোক",
+      options: ["তুমি", "সেই লোক", "আমি", "আপনি"],
+    },
+    {
+      question: "かいしゃいん",
+      correctAnswer: "কর্মচারী",
+      options: ["ব্যবসায়ী", "কর্মচারী", "ডাক্তার", "অধ্যাপক"],
+    },
+    {
+      question: "ぎんこういん",
+      correctAnswer: "ব্যাংক কর্মকর্তা",
+      options: ["ব্যাংক কর্মকর্তা", "কর্মচারী", "গবেষক", "শিক্ষক"],
+    },
+    {
+      question: "びょういん",
+      correctAnswer: "হাসপাতাল",
+      options: ["হোটেল", "হাসপাতাল", "বিমানবন্দর", "স্কুল"],
+    },
+    {
+      question: "だいがく",
+      correctAnswer: "বিশ্ববিদ্যালয়",
+      options: ["স্কুল", "বিশ্ববিদ্যালয়", "কলেজ", "হাসপাতাল"],
+    },
+    {
+      question: "しつれいですが",
+      correctAnswer: "মাফ করবেন",
+      options: ["মাফ করবেন", "অনুগ্রহ", "হ্যাঁ", "না"],
+    },
+    {
+      question: "どうぞよろしく",
+      correctAnswer: "অনুগ্রহপূর্বক",
+      options: ["অভিনন্দন", "ধন্যবাদ", "অনুগ্রহপূর্বক", "বিদায়"],
     },
   ],
   lesson2: [
     {
-      question: "おはよう",
-      correctAnswer: "সুপ্রভাত",
-      options: ["ধন্যবাদ", "হ্যালো", "বিদায়", "সুপ্রভাত"],
+      question: "これ",
+      correctAnswer: "এটি",
+      options: ["এটি", "ওটি", "সেটি", "ওখানে"],
     },
     {
-      question: "すみません",
-      correctAnswer: "দুঃখিত",
-      options: ["ধন্যবাদ", "দুঃখিত", "বিদায়", "সুপ্রভাত"],
+      question: "それ",
+      correctAnswer: "সেটি",
+      options: ["এটি", "সেটি", "ওটি", "কোথায়"],
     },
     {
-      question: "お願いします",
-      correctAnswer: "দয়া করে",
-      options: ["ধন্যবাদ", "হ্যালো", "বিদায়", "দয়া করে"],
+      question: "あれ",
+      correctAnswer: "ওটি",
+      options: ["এটি", "ওটি", "সেটি", "এখানে"],
+    },
+    {
+      question: "ほん",
+      correctAnswer: "বই",
+      options: ["বই", "পত্রিকা", "কলম", "খাতা"],
+    },
+    {
+      question: "かぎ",
+      correctAnswer: "চাবি",
+      options: ["বই", "চাবি", "মোবাইল", "গাড়ি"],
+    },
+    {
+      question: "くるま",
+      correctAnswer: "গাড়ি",
+      options: ["গাড়ি", "সাইকেল", "বাস", "ট্রেন"],
+    },
+    {
+      question: "いす",
+      correctAnswer: "চেয়ার",
+      options: ["চেয়ার", "টেবিল", "বিছানা", "দরজা"],
+    },
+    {
+      question: "おみやげ",
+      correctAnswer: "উপহার",
+      options: ["উপহার", "খেলনা", "বই", "পোশাক"],
     },
   ],
   lesson3: [
     {
-      question: "お元気ですか",
-      correctAnswer: "আপনি কেমন আছেন?",
-      options: ["আপনি কেমন আছেন?", "হ্যালো", "ধন্যবাদ", "বিদায়"],
+      question: "ここ",
+      correctAnswer: "এখানে",
+      options: ["এখানে", "সেখানে", "ওখানে", "কোথায়"],
     },
     {
-      question: "はい",
-      correctAnswer: "হ্যাঁ",
-      options: ["হ্যাঁ", "না", "সুপ্রভাত", "ধন্যবাদ"],
+      question: "そこ",
+      correctAnswer: "সেখানে",
+      options: ["এখানে", "সেখানে", "ওখানে", "কোথায়"],
     },
     {
-      question: "いいえ",
-      correctAnswer: "না",
-      options: ["হ্যাঁ", "না", "বিদায়", "সুপ্রভাত"],
+      question: "あそこ",
+      correctAnswer: "ওখানে",
+      options: ["এখানে", "সেখানে", "ওখানে", "কোথায়"],
+    },
+    {
+      question: "どこ",
+      correctAnswer: "কোথায়",
+      options: ["এখানে", "সেখানে", "ওখানে", "কোথায়"],
+    },
+    {
+      question: "うけつけ",
+      correctAnswer: "রিসেপশন",
+      options: ["রিসেপশন", "অফিস", "লিফট", "হল"],
+    },
+    {
+      question: "かいだん",
+      correctAnswer: "সিঁড়ি",
+      options: ["সিঁড়ি", "লিফট", "দরজা", "জানালা"],
+    },
+    {
+      question: "うち",
+      correctAnswer: "বাড়ি",
+      options: ["বাড়ি", "অফিস", "রেস্টুরেন্ট", "স্কুল"],
+    },
+    {
+      question: "しむしょ",
+      correctAnswer: "অফিস",
+      options: ["অফিস", "রিসেপশন", "ক্লাসরুম", "ক্লাব"],
     },
   ],
 };
+
+lessons.all = [...lessons.lesson1, ...lessons.lesson2, ...lessons.lesson3];
 
 // Flattened set for combined lessons
 lessons.all = [...lessons.lesson1, ...lessons.lesson2, ...lessons.lesson3];
